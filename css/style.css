@@ -1,1 +1,372 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main_container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.btn_link {
+  width: 380px;
+  height: 72px;
+  border-radius: 40px;
+  background: #64DEDF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn_link:hover {
+  color: #000;
+}
+
+header {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  width: 100%;
+}
+header .logo svg path {
+  fill: white;
+}
+header .menu {
+  gap: 30px;
+}
+header .menu a {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header .menu .menu_dropdown {
+  position: relative;
+}
+header .menu .menu_dropdown .menu_dropdown_title {
+  -webkit-appearance: 4px;
+     -moz-appearance: 4px;
+          appearance: 4px;
+  cursor: pointer;
+}
+header .menu .menu_dropdown .menu_dropdown_title span {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+}
+header .menu .menu_dropdown .menu_dropdown_title svg {
+  margin-left: 4px;
+  margin-top: 4px;
+}
+header .menu .menu_dropdown .menu_dropdown_items_wrapper {
+  position: absolute;
+  padding-top: 10px;
+  right: -29px;
+  display: none;
+}
+header .menu .menu_dropdown .menu_dropdown_items_wrapper svg {
+  position: absolute;
+  right: 23px;
+  top: 0;
+  transform: rotateZ(180deg);
+  width: 20px;
+  height: auto;
+}
+header .menu .menu_dropdown .menu_dropdown_items_wrapper .menu_dropdown_items {
+  background: white;
+  padding: 25px 35px 29px 36px !important;
+  gap: 14px;
+}
+header .menu .menu_dropdown .menu_dropdown_items_wrapper .menu_dropdown_items a {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  white-space: nowrap;
+}
+header .menu .menu_dropdown:hover .menu_dropdown_title span {
+  color: #64DEDF;
+}
+header .menu .menu_dropdown:hover .menu_dropdown_title svg {
+  transform: rotateZ(180deg);
+}
+header .menu .menu_dropdown:hover .menu_dropdown_items_wrapper {
+  display: block;
+}
+header .menu .last_link {
+  gap: 6px;
+}
+header .menu .last_link img {
+  transform: translateY(-3px);
+}
+
+.light_header .logo svg path {
+  fill: black;
+}
+.light_header .menu a {
+  color: black;
+}
+.light_header .menu .menu_dropdown .menu_dropdown_title span {
+  color: black;
+}
+.light_header .menu .menu_dropdown .menu_dropdown_title svg path {
+  fill: black;
+}
+
+#home {
+  background: url("../images/home_bg.png") no-repeat;
+  background-position: right center;
+  background-size: cover;
+  padding-top: 238px;
+  padding-bottom: 162px;
+}
+#home .title {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 31px;
+  max-width: 490px;
+}
+#home .description {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 55px;
+  max-width: 521px;
+}
+
+#advantages .advantages_top {
+  gap: 75px;
+  margin-bottom: 70px;
+}
+#advantages .advantages_top .advantages_top_left {
+  min-width: 426px;
+  border-right: 1px solid #CE7C00;
+}
+#advantages .advantages_top .advantages_top_left .imgs {
+  right: -25px;
+  bottom: -11px;
+  gap: 73px;
+}
+#advantages .advantages_top .advantages_top_left .main_img {
+  width: 331px;
+  margin-top: 51px;
+}
+#advantages .advantages_top .advantages_top_right .title {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 389px;
+  margin-bottom: 35px;
+  margin-top: 100px;
+}
+#advantages .advantages_top .advantages_top_right .datas {
+  display: flex;
+  gap: 43px;
+  align-items: flex-start;
+}
+#advantages .advantages_top .advantages_top_right .datas .data {
+  width: 157px;
+  min-width: 157px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#advantages .advantages_top .advantages_top_right .datas .value {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#advantages .advantages_top .advantages_top_right .datas_1 {
+  margin-bottom: 49px;
+}
+#advantages .advantages_top .advantages_top_right .datas_1 .value {
+  width: 377px;
+}
+#advantages .advantages_top .advantages_top_right .datas_2 {
+  margin-bottom: 50px;
+}
+#advantages .advantages_top .advantages_top_right .datas_2 .value {
+  width: 380px;
+}
+#advantages .advantages_top .advantages_top_right .datas_3 {
+  margin-bottom: 36px;
+}
+#advantages .advantages_top .advantages_top_right .datas_3 .value {
+  width: 300px;
+}
+#advantages .advantages_top .advantages_top_right .datas_4 .value {
+  width: 331px;
+}
+#advantages .advantages_bottom {
+  gap: 7px;
+  margin-bottom: 102px;
+}
+#advantages .advantages_bottom .advantages_left .title {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 33px;
+  max-width: 393px;
+}
+#advantages .advantages_bottom .advantages_left .description {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 337px;
+}
+#advantages .advantages_bottom .advantages_left {
+  position: relative;
+}
+#advantages .advantages_bottom .advantages_left .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#chip {
+  background: url("../images/chip_bg.png") no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+#chip .main_container {
+  padding: 191px 0 199px 560px;
+}
+#chip .title {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+#chip .description {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 493px;
+}
+
+#example {
+  margin-bottom: 92px;
+}
+#example .main_container {
+  gap: 20px;
+}
+#example .card_first {
+  position: relative;
+  margin-right: 13px;
+}
+#example .card_first .text {
+  position: absolute;
+  top: 209px;
+  left: 60px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 250px;
+}
+#example .card_item {
+  padding-top: 100px;
+}
+#example .card_item .card_title {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+#example .card_item .card_img {
+  margin-bottom: 30px;
+}
+#example .card_item .card_descriptions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+#example .card_item .card_descriptions .text {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#chip2 {
+  background: url("../images/chip2_bg.png") no-repeat;
+  background-position: left center;
+  background-size: cover;
+}
+#chip2 .main_container {
+  padding: 150px 0 164px 560px;
+}
+#chip2 .description {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 480px;
+  margin-bottom: 95px;
+}
+
+@media (max-width: 1280px) {
+  .main_container {
+    max-width: calc(100% - 100px);
+  }
+}/*# sourceMappingURL=style.css.map */
