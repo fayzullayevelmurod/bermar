@@ -365,6 +365,277 @@ header .menu .last_link img {
   margin-bottom: 95px;
 }
 
+#all_cards .first_cards {
+  gap: 20px;
+  margin-bottom: 100px;
+}
+#all_cards .first_cards .first_card {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+#all_cards .first_cards .first_card .first_card_left {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  position: relative;
+}
+#all_cards .first_cards .first_card .first_card_left .line {
+  background: #CE7C00;
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 25px;
+}
+#all_cards .first_cards .first_card .first_card_left .icons {
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#all_cards .first_cards .first_card .first_card_left .icons .img_1 {
+  margin-bottom: 33px;
+}
+#all_cards .first_cards .first_card .first_card_left .icons .img_2 {
+  margin-bottom: 48px;
+}
+#all_cards .first_cards .first_card .first_card_left .icons .img_3 {
+  margin-bottom: 77px;
+}
+#all_cards .first_cards .first_card .first_card_right {
+  padding-top: 114px;
+}
+#all_cards .first_cards .first_card .first_card_right .title {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 35px;
+  max-width: 280px;
+}
+#all_cards .first_cards .first_card .first_card_right .descriptions {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+#all_cards .first_cards .first_card .first_card_right .descriptions div {
+  width: 274px;
+}
+#all_cards .first_cards .cards {
+  padding-top: 114px;
+}
+#all_cards .first_cards .cards .cards_top {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 46px;
+}
+#all_cards .main_cards {
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+#all_cards .main_cards .cards .cards_top {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 46px;
+}
+#all_cards .main_cards .first_card {
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+}
+#all_cards .main_cards .first_card .first_card_left {
+  position: relative;
+}
+#all_cards .main_cards .first_card .first_card_left .line {
+  position: absolute;
+  left: 25px;
+  height: 100%;
+  bottom: 0;
+  width: 1px;
+  background: #CE7C00;
+}
+#all_cards .main_cards .first_card .first_card_left .icons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#all_cards .main_cards .first_card .first_card_left_1 {
+  margin-bottom: 35px;
+}
+#all_cards .main_cards .first_card .first_card_left_1 .icons .img_1 {
+  margin-bottom: 58px;
+}
+#all_cards .main_cards .first_card .first_card_left_1 .icons .img_2 {
+  margin-bottom: 81px;
+}
+#all_cards .main_cards .first_card .first_card_left_2 {
+  margin-bottom: -5px;
+}
+#all_cards .main_cards .first_card .first_card_left_2 .icons .img_1 {
+  margin-bottom: 60px;
+}
+#all_cards .main_cards .first_card .first_card_left_2 .icons .img_2 {
+  margin-bottom: 48px;
+}
+#all_cards .main_cards .first_card .first_card_left_3 {
+  margin-bottom: 15px;
+}
+#all_cards .main_cards .first_card .first_card_left_3 .icons .img_1 {
+  margin-bottom: 66px;
+}
+#all_cards .main_cards .first_card .first_card_left_3 .icons .img_2 {
+  margin-bottom: 54px;
+}
+#all_cards .main_cards .first_card .first_card_right .title {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 35px;
+  max-width: 280px;
+}
+#all_cards .main_cards .first_card .first_card_right .descriptions {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  width: 262px;
+}
+#all_cards .main_cards .first_card .first_card_right .descriptions div {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#all_cards .last_main_cards {
+  margin-bottom: 158px;
+}
+
+#trust {
+  position: relative;
+  padding: 35px 0;
+  margin-bottom: 100px;
+}
+#trust .trust_bg {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: black;
+  right: 0;
+}
+#trust .main_container {
+  gap: 101px;
+  position: relative;
+}
+#trust .title {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 299px;
+}
+#trust .texts {
+  display: flex;
+  align-items: center;
+  padding-left: 99px;
+}
+#trust .texts .line {
+  background: #CE7C00;
+  width: 1px;
+  height: 48px;
+}
+#trust .texts .line_1 {
+  margin-left: 75px;
+  margin-right: 74px;
+}
+#trust .texts .line_2 {
+  margin-left: 69px;
+  margin-right: 66px;
+}
+#trust .texts .item .number {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+#trust .texts .item .text {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#foot_slier {
+  margin-bottom: 172px;
+}
+#foot_slier .main_container {
+  gap: 20px;
+}
+#foot_slier .btn_right {
+  transform: rotateZ(180deg);
+}
+
+footer {
+  background: black;
+  padding: 54px 0 47px;
+}
+footer .item ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 41px;
+  gap: 17px;
+}
+footer .item .link_1 {
+  margin-top: 46px;
+}
+footer .item .title {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 26px;
+}
+footer .item a {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .item .link {
+  width: 222px;
+}
+footer .item_2 {
+  margin-left: 70px;
+  margin-right: 52px;
+}
+footer .item_4 {
+  margin-left: 124px;
+}
+
 @media (max-width: 1280px) {
   .main_container {
     max-width: calc(100% - 100px);
