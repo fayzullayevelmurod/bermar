@@ -1,0 +1,337 @@
+#classic_main {
+    .classic_main_wrapper {
+        .mobile_img {
+            display: none;
+            text-align: center;
+
+            .main_img {
+                width: 50%;
+            }
+        }
+
+        .mobile_main_in {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .mobile_main_img {
+                display: none;
+                margin: 0 auto;
+                width: 50%;
+            }
+        }
+
+        .media_slider {
+            display: none !important;
+
+            .classicSlider {
+                max-width: 350px;
+
+                img {
+                    width: 100%;
+                }
+
+                .swiper-pagination-bullet {
+                    background-color: #C1F2F2FF;
+                }
+
+                .swiper-pagination-bullet-active {
+                    background-color: #64DEDFFF;
+                }
+            }
+
+            h3 {
+                max-width: 280px;
+                margin: 26px auto 32px auto;
+                color: #000;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .btn_link {
+                margin: 0 auto;
+            }
+
+        }
+
+        h2 {
+            max-width: 288px;
+            margin: 226px auto 30px auto;
+            color: #000;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .classic_in {
+            margin-bottom: 37px;
+            display: flex;
+            justify-content: space-between;
+
+            .classic_block {
+                .classic_card_left {
+                    position: relative;
+
+                    .svg_icon1 {
+                        position: absolute;
+                        top: 30px;
+                        left: 74px;
+                    }
+
+                    .svg_icon2 {
+                        position: absolute;
+                        top: 30px;
+                        left: 74px;
+                    }
+
+                    .svg_icon3 {
+                        position: absolute;
+                        top: -40px;
+                        left: 74px;
+                    }
+
+                    h3 {
+                        max-width: 229px;
+                        color: #000;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+                    p {
+                        height: 134px;
+                        max-width: 320px;
+                        color: #000;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+
+                .classic_card_slider {
+                    transform: translateY(80px);
+
+                    .classicSlider {
+                        width: 350px;
+
+                        img {
+                            width: 100%;
+                        }
+
+                        .swiper-pagination-bullet {
+                            background-color: #C1F2F2FF;
+                        }
+
+                        .swiper-pagination-bullet-active {
+                            background-color: #64DEDFFF;
+                        }
+                    }
+
+                    h3 {
+                        max-width: 280px;
+                        margin: 26px auto 32px auto;
+                        color: #000;
+                        text-align: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+
+                .main_img {
+                    width: 100%;
+                }
+
+                .classic_card_right {
+                    text-align: right;
+                    position: relative;
+
+                    .svg_icon1 {
+                        position: absolute;
+                        top: 30px;
+                        right: 74px;
+                    }
+
+                    .svg_icon2 {
+                        position: absolute;
+                        top: 30px;
+                        right: 74px;
+                    }
+
+                    .svg_icon3 {
+                        position: absolute;
+                        top: -40px;
+                        right: 74px;
+                    }
+
+                    h3 {
+                        max-width: 258px;
+                        color: #000;
+                        text-align: right;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        max-width: 280px;
+                    }
+
+                    p {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        height: 134px;
+                        max-width: 320px;
+                        color: #000;
+                        text-align: right;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+        .classic_card_sliders {
+            display: flex;
+            gap: 120px;
+            justify-content: center;
+
+            .classic_card_slider {
+                .classicSlider {
+                    width: 380px;
+
+                    .swiper-pagination-bullet {
+                        background-color: #C1F2F2FF;
+                    }
+
+                    .swiper-pagination-bullet-active {
+                        background-color: #64DEDFFF;
+                    }
+                }
+
+                h3 {
+                    max-width: 280px;
+                    margin: 26px auto 32px auto;
+                    color: #000;
+                    text-align: center;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+        }
+
+        .other_products {
+            h3 {
+                margin: 100px auto 13px auto;
+                color: #000;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .other_products_in {
+                display: flex;
+                gap: 20px;
+
+                .other_products_card {
+                    text-align: center;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    h3 {
+                        max-width: 250px;
+                        margin: 23px auto 32px auto;
+                        color: #000;
+                        text-align: center;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+        .bottom_slider {
+            margin-top: 138px;
+            margin-bottom: 165px;
+
+            .bottomSwiper {
+                display: flex;
+                // max-width: 780px;
+                border: 1px solid red;
+
+                .swiper-wrapper {
+                    .swiper-slide {
+                        margin-right: 0px;
+
+                        img {
+                            width: 380px;
+                        }
+                    }
+
+                    .swiper-slide-active {
+                        width: 415px !important;
+                        margin-right: 0px !important;
+                    }
+                }
+
+                .btn_left {
+                    position: relative;
+                    z-index: 3;
+                    left: 0;
+                }
+
+                .btn_right {
+                    position: relative;
+                    z-index: 10;
+                    right: 0;
+                }
+            }
+        }
+
+        .stopper_in {
+            display: flex;
+            gap: 20px;
+
+            .stopper_card {
+                text-align: center;
+
+                h3 {
+                    max-width: 280px;
+                    margin: 26px auto 32px auto;
+                    color: #000;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
