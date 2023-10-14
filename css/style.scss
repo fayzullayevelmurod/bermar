@@ -29,7 +29,25 @@
         color: #000;
     }
 }
+.btn_link_two {
+    max-width: 350px;
+    height: 72px;
+    border-radius: 40px;
+    background: #CE7C00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
+    &:hover {
+        color: #fff;
+    }
+}
 header {
     position: absolute;
     top: 62px;
@@ -787,5 +805,5 @@ footer {
         margin-left: 124px;
     }
 }
-
+@import "classic";
 @import "responsive";

@@ -3,3 +3,284 @@
         max-width: calc(100% - 100px);
     }
 }
+
+@media (max-width: 1300px) {
+    #classic_main {
+        .classic_main_wrapper {
+            .stopper_in {
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    #classic_main {
+        .classic_main_wrapper {
+            .mobile_img {
+                display: block;
+            }
+
+            .mobile_main_in {
+                .mobile_main_img {
+                    display: block;
+                }
+            }
+
+            .media_slider {
+                display: block !important;
+            }
+
+            .classic_in {
+                .classic_block {
+                    .main_img {
+                        display: none;
+                    }
+
+                    .desktop_slider {
+                        display: none;
+                    }
+
+                    .classic_card_right {
+                        .svg_icon1 {
+                            width: 80%;
+                        }
+
+                        .svg_icon2 {
+                            width: 80%;
+                        }
+
+                        .svg_icon3 {
+                            width: 80%;
+                        }
+                    }
+
+                    .classic_card_left {
+                        .svg_icon1 {
+                            width: 80%;
+                        }
+
+                        .svg_icon2 {
+                            width: 80%;
+                        }
+
+                        .svg_icon3 {
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+
+            .classic_card_sliders {
+                gap: 50px;
+                flex-direction: column;
+
+                .btn_link {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 993px) {
+    #classic_main {
+        .classic_main_wrapper {
+            .classic_in {
+                .classic_block {
+                    .main_img {
+                        display: none;
+                    }
+
+                    .classic_card_right {
+                        .svg_icon1 {
+                            display: none;
+                        }
+
+                        .svg_icon2 {
+                            display: none;
+                        }
+
+                        .svg_icon3 {
+                            display: none;
+                        }
+                    }
+
+                    .classic_card_left {
+                        .svg_icon1 {
+                            display: none;
+                        }
+
+                        .svg_icon2 {
+                            display: none;
+                        }
+
+                        .svg_icon3 {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .other_products {
+                .other_products_in {
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+
+                    .btn_link_two {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main_container {
+        max-width: calc(100% - 30px);
+    }
+
+    .btn_link,
+    .btn_link_two {
+        height: 40px;
+        font-size: 21px;
+    }
+
+    #classic_main {
+        .classic_main_wrapper {
+            .classic_in {
+                .classic_block {
+                    .classic_card_right {
+                        margin-bottom: 50px;
+                        max-width: 250px;
+
+                        p {
+                            height: 200px;
+                        }
+
+                        h3 {
+                            height: 60px;
+                        }
+                    }
+
+                    .classic_card_left {
+                        margin-bottom: 50px;
+                        max-width: 250px;
+
+                        p {
+                            height: 200px;
+                        }
+
+                        h3 {
+                            height: 60px;
+                        }
+                    }
+                }
+            }
+
+            .classic_card_sliders {
+                .classic_card_slider {
+                    .classicSlider {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    .btn_link,
+    .btn_link_two {
+        height: 40px;
+        font-size: 21px;
+    }
+
+    #classic_main {
+        .classic_main_wrapper {
+            .stopper_in {
+                .stopper_card {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .btn_link {
+                        margin: 0 auto;
+                    }
+                }
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            .other_products {
+                h3 {
+                    font-size: 22px;
+                }
+            }
+
+            .classic_card_sliders {
+                gap: 10px;
+            }
+
+            .classic_in {
+                margin-bottom: 10px;
+
+                .classic_block {
+                    .classic_card_right {
+                        margin-bottom: 10px;
+                        max-width: 250px;
+
+                        h3 {
+                            height: 60px;
+                            font-size: 16px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            height: 170px;
+                        }
+                    }
+
+                    .classic_card_left {
+                        margin-bottom: 10px;
+                        max-width: 250px;
+
+                        h3 {
+                            height: 60px;
+                            font-size: 16px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            height: 170px;
+                        }
+                    }
+                }
+            }
+
+            .classic_card_sliders {
+                .classic_card_slider {
+                    .classicSlider {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

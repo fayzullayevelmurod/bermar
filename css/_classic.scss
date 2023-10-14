@@ -279,11 +279,10 @@
         .bottom_slider {
             margin-top: 138px;
             margin-bottom: 165px;
+            gap: 20px;
 
             .bottomSwiper {
                 display: flex;
-                // max-width: 780px;
-                border: 1px solid red;
 
                 .swiper-wrapper {
                     .swiper-slide {
