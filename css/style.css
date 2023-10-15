@@ -962,6 +962,114 @@ footer .item_4 {
   font-weight: 700;
   line-height: normal;
 }
+#classic_main .classic_main_wrapper .podbar_cards .podbar_card_top {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 90px;
+  flex-wrap: wrap;
+}
+#classic_main .classic_main_wrapper .podbar_cards .podbar_card {
+  max-width: 380px;
+}
+#classic_main .classic_main_wrapper .podbar_cards .podbar_card img {
+  width: 100%;
+}
+#classic_main .classic_main_wrapper .podbar_cards .podbar_card h3 {
+  margin: 16px auto 39px auto;
+  max-width: 380px;
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#classic_main .classic_main_wrapper .podbar_system {
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  gap: 53px;
+}
+#classic_main .classic_main_wrapper .podbar_system h3 {
+  max-width: 346px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#classic_main .classic_main_wrapper .podbar_system .system_block {
+  position: relative;
+}
+#classic_main .classic_main_wrapper .podbar_system .system_block .system_line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 500px !important;
+}
+#classic_main .classic_main_wrapper .podbar_system .system_block .system_box {
+  margin-bottom: 54px;
+  display: flex;
+  align-items: start;
+}
+#classic_main .classic_main_wrapper .podbar_system .system_block .system_box img {
+  position: relative;
+  left: -25px;
+}
+#classic_main .classic_main_wrapper .podbar_system .system_block .system_box img:nth-child(2) {
+  transform: translateY(5px);
+}
+#classic_main .classic_main_wrapper .podbar_system .system_block .system_box h4 {
+  margin-left: 25px;
+  margin-right: 20px;
+  max-width: 180px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#classic_main .classic_main_wrapper .podbar_system .system_block .system_box p {
+  max-width: 311px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#classic_main .classic_main_wrapper .podbar_instruction {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+#classic_main .classic_main_wrapper .podbar_instruction h3 {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#classic_main .classic_main_wrapper .podbar_instruction .instruction_card {
+  max-width: 280px;
+}
+#classic_main .classic_main_wrapper .podbar_instruction .instruction_card img {
+  width: 100%;
+}
+#classic_main .classic_main_wrapper .podbar_instruction .instruction_card p {
+  max-width: 280px;
+  margin-top: 23px;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 #classic_main .classic_main_wrapper .other_products h3 {
   margin: 100px auto 13px auto;
   color: #000;
@@ -1097,6 +1205,20 @@ footer .item_4 {
     margin: 0 auto;
   }
 }
+@media (max-width: 1070px) {
+  #classic_main .classic_main_wrapper .podbar_system {
+    overflow: visible;
+    flex-direction: column;
+  }
+  #classic_main .classic_main_wrapper .podbar_system h3 {
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #classic_main .classic_main_wrapper .podbar_system .system_block {
+    margin: 0 auto 0 30px;
+  }
+}
 @media (max-width: 993px) {
   #classic_main .classic_main_wrapper .classic_in .classic_block .main_img {
     display: none;
@@ -1126,8 +1248,32 @@ footer .item_4 {
   #classic_main .classic_main_wrapper .other_products .other_products_in .btn_link_two {
     margin: 0 auto;
   }
+  #classic_main .classic_main_wrapper .podbar_instruction {
+    flex-direction: column;
+    text-align: center;
+  }
+  #classic_main .classic_main_wrapper .podbar_instruction .instruction_card {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 768px) {
+  #classic_main .classic_main_wrapper .podbar_system .system_block {
+    margin: 0 auto 0 30px;
+  }
+  #classic_main .classic_main_wrapper .podbar_system .system_block .system_line {
+    display: none;
+  }
+  #classic_main .classic_main_wrapper .podbar_system .system_block .system_box {
+    margin-bottom: 10px;
+    flex-direction: column;
+  }
+  #classic_main .classic_main_wrapper .podbar_system .system_block .system_box img {
+    position: relative;
+    left: 0;
+  }
+  #classic_main .classic_main_wrapper .podbar_system .system_block .system_box h4 {
+    margin-left: 0px;
+  }
   .main_container {
     max-width: calc(100% - 30px);
   }
@@ -1218,6 +1364,17 @@ footer .item_4 {
     width: 100%;
   }
   #classic_main .classic_main_wrapper .classic_card_sliders .classic_card_slider .classicSlider img {
+    width: 100%;
+  }
+}
+@media (max-width: 420px) {
+  #classic_main .classic_main_wrapper .podbar_card_top {
+    margin-bottom: 0;
+  }
+  #classic_main .classic_main_wrapper .podbar_card_top .podbar_card {
+    width: 95%;
+  }
+  #classic_main .classic_main_wrapper .podbar_card_top .podbar_card .btn_link {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

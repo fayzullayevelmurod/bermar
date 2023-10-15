@@ -92,6 +92,27 @@
     }
 }
 
+@media(max-width: 1070px) {
+    #classic_main {
+        .classic_main_wrapper {
+            .podbar_system {
+                overflow: visible;
+                flex-direction: column;
+
+                h3 {
+                    font-size: 25px;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+
+                .system_block {
+                    margin: 0 auto 0 30px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 993px) {
     #classic_main {
         .classic_main_wrapper {
@@ -141,11 +162,47 @@
                     }
                 }
             }
+
+            .podbar_instruction {
+                flex-direction: column;
+                text-align: center;
+
+                .instruction_card {
+                    margin: 0 auto;
+                }
+            }
         }
     }
 }
 
 @media (max-width: 768px) {
+    #classic_main {
+        .classic_main_wrapper {
+            .podbar_system {
+                .system_block {
+                    margin: 0 auto 0 30px;
+
+                    .system_line {
+                        display: none;
+                    }
+
+                    .system_box {
+                        margin-bottom: 10px;
+                        flex-direction: column;
+
+                        img {
+                            position: relative;
+                            left: 0;
+                        }
+
+                        h4 {
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
     .main_container {
         max-width: calc(100% - 30px);
@@ -286,6 +343,24 @@
                         img {
                             width: 100%;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    #classic_main {
+        .classic_main_wrapper {
+            .podbar_card_top {
+                margin-bottom: 0;
+
+                .podbar_card {
+                    width: 95%;
+
+                    .btn_link {
+                        width: 100%;
                     }
                 }
             }

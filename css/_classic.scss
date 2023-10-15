@@ -238,6 +238,134 @@
             }
         }
 
+        .podbar_cards {
+            .podbar_card_top {
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 90px;
+                flex-wrap: wrap;
+            }
+
+            .podbar_card {
+                max-width: 380px;
+
+                img {
+                    width: 100%;
+                }
+
+                h3 {
+                    margin: 16px auto 39px auto;
+                    max-width: 380px;
+                    color: #000;
+                    text-align: center;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+        }
+
+        .podbar_system {
+            overflow: hidden;
+            display: flex;
+            align-items: start;
+            gap: 53px;
+
+            h3 {
+                max-width: 346px;
+                color: #000;
+                font-family: 'Inter', sans-serif;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .system_block {
+                position: relative;
+
+                .system_line {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 500px !important;
+                }
+
+                .system_box {
+                    margin-bottom: 54px;
+                    display: flex;
+                    align-items: start;
+
+                    img {
+                        position: relative;
+                        left: -25px;
+                    }
+
+                    img:nth-child(2) {
+                        transform: translateY(5px);
+                    }
+
+                    h4 {
+                        margin-left: 25px;
+                        margin-right: 20px;
+                        max-width: 180px;
+                        color: #000;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+                    p {
+                        max-width: 311px;
+                        color: #000;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+        .podbar_instruction {
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+
+            h3 {
+                color: #000;
+                font-family: 'Inter', sans-serif;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .instruction_card {
+                img {
+                    width: 100%;
+                }
+
+                max-width: 280px;
+
+                p {
+                    max-width: 280px;
+                    margin-top: 23px;
+                    color: #000;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+
         .other_products {
             h3 {
                 margin: 100px auto 13px auto;
