@@ -543,6 +543,117 @@ header .menu .last_link img {
   margin-bottom: 158px;
 }
 
+#history_home .title {
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 226px auto 63px;
+  max-width: 372px;
+}
+#history_home .history_home_bottom {
+  background: url("../images/history_card_bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 155px;
+  margin-bottom: 100px;
+}
+#history_home .description {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 571px;
+  margin-left: 200px;
+  margin-bottom: 106px;
+}
+#history_home .cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  padding-right: 100px;
+  gap: 20px;
+}
+#history_home .cards .card_item {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 55px 50px;
+  width: 380px;
+}
+#history_home .cards .card_item .text {
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 12px;
+}
+
+#history_cards {
+  margin-bottom: 100px;
+}
+#history_cards .main_container {
+  gap: 20px;
+}
+#history_cards .card_left {
+  width: calc(57.6271186441% - 10px);
+}
+#history_cards .card_left .first_card_item img {
+  width: 100%;
+  margin-bottom: 28px;
+}
+#history_cards .card_left .first_card_item .text {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 54px;
+  max-width: 580px;
+}
+#history_cards .card_left .card_item {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: 0;
+}
+#history_cards .card_left .card_item img {
+  width: 100%;
+  margin-bottom: 29px;
+}
+#history_cards .card_left .card_item .text {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#history_cards .card_right {
+  width: calc(40.6779661017% - 10px);
+}
+#history_cards .card_right img {
+  width: 100%;
+  margin: 61px 0 28px;
+}
+#history_cards .card_right .text {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 #trust {
   position: relative;
   padding: 35px 0;
@@ -931,6 +1042,11 @@ footer .item_4 {
 @media (max-width: 1280px) {
   .main_container {
     max-width: calc(100% - 100px);
+  }
+}
+@media (max-width: 1220px) {
+  header .menu {
+    display: none !important;
   }
 }
 @media (max-width: 1300px) {

@@ -29,6 +29,7 @@
         color: #000;
     }
 }
+
 .btn_link_two {
     max-width: 350px;
     height: 72px;
@@ -48,6 +49,7 @@
         color: #fff;
     }
 }
+
 header {
     position: absolute;
     top: 62px;
@@ -116,7 +118,7 @@ header {
                     background: white;
                     padding: 25px 35px 29px 36px !important;
                     gap: 14px;
-                    
+
 
                     a {
                         color: #000;
@@ -215,7 +217,7 @@ header {
         margin-bottom: 55px;
         max-width: 521px;
     }
-    
+
 }
 
 #advantages {
@@ -226,7 +228,7 @@ header {
         .advantages_top_left {
             min-width: 426px;
             border-right: 1px solid #CE7C00;
-            
+
             .imgs {
                 right: -25px;
                 bottom: -11px;
@@ -270,7 +272,7 @@ header {
 
                 .value {
                     color: #000;
-                    font-family: "Inter" ,sans-serif;
+                    font-family: "Inter", sans-serif;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 400;
@@ -288,7 +290,7 @@ header {
 
             .datas_2 {
                 margin-bottom: 50px;
-                
+
                 .value {
                     width: 380px;
                 }
@@ -483,7 +485,7 @@ header {
                 align-items: flex-start;
                 gap: 50px;
                 position: relative;
-                
+
                 .line {
                     background: #CE7C00;
                     width: 1px;
@@ -492,12 +494,12 @@ header {
                     top: 0;
                     left: 25px;
                 }
-                
+
                 .icons {
                     padding-top: 250px;
                     display: flex;
                     flex-direction: column;
-                    position: relative;                    
+                    position: relative;
 
                     .img_1 {
                         margin-bottom: 33px;
@@ -506,7 +508,7 @@ header {
                     .img_2 {
                         margin-bottom: 48px;
                     }
-                    
+
                     .img_3 {
                         margin-bottom: 77px;
                     }
@@ -547,7 +549,7 @@ header {
 
         .cards {
             padding-top: 114px;
-            
+
 
             .cards_top {
                 display: flex;
@@ -669,6 +671,136 @@ header {
 
     .last_main_cards {
         margin-bottom: 158px;
+    }
+}
+
+#history_home {
+    .title {
+        color: #000;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 226px auto 63px;
+        max-width: 372px;
+    }
+
+    .history_home_bottom {
+        background: url('../images/history_card_bg.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 155px;
+        margin-bottom: 100px;
+    }
+
+    .description {
+        color: #FFF;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        max-width: 571px;
+        margin-left: 200px;
+        margin-bottom: 106px;
+    }
+
+    .cards {
+        display: flex;
+        align-items: stretch;
+        justify-content: flex-end;
+        padding-right: 100px;
+        gap: 20px;
+
+        .card_item {
+            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 45px 55px 50px;
+            width: 380px;
+
+            .text {
+                color: #000;
+                text-align: center;
+                font-family: "Inter", sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 12px;
+            }
+        }
+    }
+}
+
+#history_cards {
+    margin-bottom: 100px;
+    
+    .main_container {
+        gap: 20px;
+    }
+
+    .card_left {
+        width: calc(100% * 680px / 1180px - 10px);
+
+        .first_card_item {
+            img {
+                width: 100%;
+                margin-bottom: 28px;
+            }
+
+            .text {
+                color: #000;
+                font-family: "Inter", sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 54px;
+                max-width: 580px;
+            }
+        }
+
+        .card_item {
+            max-width: 480px;
+            margin-left: auto;
+            margin-right: 0;
+
+            img {
+                width: 100%;
+                margin-bottom: 29px;
+            }
+
+            .text {
+                color: #000;
+                font-family: "Inter", sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+
+    .card_right {
+        width: calc(100% * 480px / 1180px - 10px);
+
+        img {
+            width: 100%;
+            margin: 61px 0 28px;
+        }
+
+        .text {
+            color: #000;
+            font-family: "Inter", sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
     }
 }
 
@@ -805,5 +937,6 @@ footer {
         margin-left: 124px;
     }
 }
+
 @import "classic";
 @import "responsive";
