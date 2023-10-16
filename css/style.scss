@@ -157,6 +157,18 @@ header {
             }
         }
     }
+
+    .mobile_menu {
+        display: none;
+    }
+
+    .bars {
+        display: none;
+
+        svg {
+            fill: white;
+        }
+    }
 }
 
 .light_header {
@@ -165,6 +177,12 @@ header {
             path {
                 fill: black;
             }
+        }
+    }
+
+    .bars {
+        svg {
+            fill: black;
         }
     }
 
@@ -399,6 +417,7 @@ header {
     .card_first {
         position: relative;
         margin-right: 13px;
+        order: 1;
 
         .text {
             position: absolute;
@@ -416,6 +435,7 @@ header {
 
     .card_item {
         padding-top: 100px;
+        order: 2;
 
         .card_title {
             color: #000;
@@ -881,6 +901,14 @@ header {
 
     .main_container {
         gap: 20px;
+    }
+
+    .foot_slider {
+        .swiper-slide {
+            img {
+                width: 100%;
+            }
+        }
     }
 
     .btn_right {
