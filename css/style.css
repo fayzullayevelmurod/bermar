@@ -1941,6 +1941,7 @@ footer .item_4 {
     width: 100%;
   }
   #classic_main .classic_main_wrapper .classic_in {
+    margin-top: 50px;
     flex-direction: column;
   }
   #classic_main .classic_main_wrapper .classic_in .classic_block {
