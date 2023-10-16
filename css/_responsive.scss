@@ -41,16 +41,14 @@
             top: 0;
             width: 100%;
             height: 100%;
-            background: white;
+            background: rgba(0, 0, 0, 0.85);
             z-index: 5;
             display: none;
-            align-items: center;
-            justify-content: center;
 
             .header_close {
                 position: absolute;
-                top: 10px;
-                right: 20px;
+                top: 18px;
+                left: 284px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -59,40 +57,71 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
+
             }
 
             .mobile_menu_wrapper {
-                align-items: center;
                 gap: 10px;
+                background: white;
+                width: 320px;
+                padding-top: 30px;
+                padding-left: 10px !important;
 
                 a {
                     font-family: "Inter", sans-serif;
-                    font-size: 20px;
+                    font-size: 16px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
                 }
 
+                a.logo {
+                    margin-bottom: 20px;
+                    svg {
+                        width: auto;
+                        height: 20px;
+
+                        path {
+                            fill: black;
+                        }
+                    }
+                }
+
                 .menu_dropdown {
-                    text-align: center;
 
                     .menu_dropdown_title {
-                        justify-content: center;
-
                         span {
                             font-family: "Inter", sans-serif;
-                            font-size: 20px;
+                            font-size: 16px;
                             font-style: normal;
                             font-weight: 400;
                             line-height: normal;
+                            margin-right: 5px;
                         }
 
                         svg {
+                            margin-top: 2px;
                             path {
                                 fill: black;
                             }
                         }
                     }
+
+                    .menu_dropdown_items_wrapper {
+                        .menu_dropdown_items {
+                            gap: 5px;
+                            li {
+                                a {
+                                    font-size: 14px;
+                                    padding-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .last_link {
+                    gap: 10px;
                 }
             }
         }
@@ -441,6 +470,7 @@
     #home {
         padding-top: 130px;
         padding-bottom: 50px;
+        background-position: left center;
 
         .main_container {
             max-width: 100%;
@@ -451,19 +481,11 @@
         .title {
             font-size: 20px;
             margin-bottom: 31px;
-            max-width: 100%;
-            text-align: center;
         }
     
         .description {
             font-size: 14px;
             margin-bottom: 30px;
-            max-width: 100%;
-            text-align: center;
-        }
-        
-        .btn_link {
-            margin: 0 auto;
         }
     }
 
@@ -915,6 +937,14 @@
     
             .link {
                 width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                img {
+                    width: 16px;
+                    height: auto;
+                }
             }
         }
 
@@ -1042,6 +1072,46 @@
                     }
                 }
             }
+
+            .classic_in {
+                flex-direction: column;
+
+                .classic_block {
+                    width: 100%;
+
+                    .classic_card_left,
+                    .classic_card_right {
+                        max-width: 100% !important;
+                        text-align: center;
+                        margin-bottom: 20px;
+
+                        svg {
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+
+                        img {
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+
+                        h3 {
+                            max-width: 100%;
+                            text-align: center;
+                            margin-bottom: 10px;
+                            height: auto;
+                        }
+
+                        p {
+                            max-width: 100%;
+                            height: auto;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -1088,6 +1158,28 @@
                     font-size: 12px;
                 }
             }
+        }
+    }
+
+    #home {
+        background: url('../images/index_mobile.png'), no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 210px;
+        padding-bottom: 710px;
+
+        .title {
+            max-width: 490px;
+        }
+
+        .description {
+            max-width: 520px;
+        }
+
+        .btn_link {
+            max-width: 380px;
+            margin-right: auto;
+            margin-left: 0;
         }
     }
 }

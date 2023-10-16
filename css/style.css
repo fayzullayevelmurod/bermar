@@ -774,6 +774,9 @@ footer .item a {
 }
 footer .item .link {
   width: 222px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 footer .item_2 {
   margin-left: 70px;
@@ -830,7 +833,7 @@ footer .item_4 {
   margin: 0 auto;
 }
 #classic_main .classic_main_wrapper h2 {
-  max-width: 288px;
+  text-align: center;
   margin: 226px auto 30px auto;
   color: #000;
   text-align: center;
@@ -940,6 +943,8 @@ footer .item_4 {
   font-weight: 700;
   line-height: normal;
   max-width: 280px;
+  margin-left: auto;
+  margin-right: 0;
 }
 #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_right p {
   overflow: hidden;
@@ -1199,16 +1204,14 @@ footer .item_4 {
     top: 0;
     width: 100%;
     height: 100%;
-    background: white;
+    background: rgba(0, 0, 0, 0.85);
     z-index: 5;
     display: none;
-    align-items: center;
-    justify-content: center;
   }
   header .mobile_menu .header_close {
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 18px;
+    left: 284px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1219,31 +1222,52 @@ footer .item_4 {
     line-height: normal;
   }
   header .mobile_menu .mobile_menu_wrapper {
-    align-items: center;
     gap: 10px;
+    background: white;
+    width: 320px;
+    padding-top: 30px;
+    padding-left: 10px !important;
   }
   header .mobile_menu .mobile_menu_wrapper a {
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
   }
-  header .mobile_menu .mobile_menu_wrapper .menu_dropdown {
-    text-align: center;
+  header .mobile_menu .mobile_menu_wrapper a.logo {
+    margin-bottom: 20px;
   }
-  header .mobile_menu .mobile_menu_wrapper .menu_dropdown .menu_dropdown_title {
-    justify-content: center;
+  header .mobile_menu .mobile_menu_wrapper a.logo svg {
+    width: auto;
+    height: 20px;
+  }
+  header .mobile_menu .mobile_menu_wrapper a.logo svg path {
+    fill: black;
   }
   header .mobile_menu .mobile_menu_wrapper .menu_dropdown .menu_dropdown_title span {
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-right: 5px;
+  }
+  header .mobile_menu .mobile_menu_wrapper .menu_dropdown .menu_dropdown_title svg {
+    margin-top: 2px;
   }
   header .mobile_menu .mobile_menu_wrapper .menu_dropdown .menu_dropdown_title svg path {
     fill: black;
+  }
+  header .mobile_menu .mobile_menu_wrapper .menu_dropdown .menu_dropdown_items_wrapper .menu_dropdown_items {
+    gap: 5px;
+  }
+  header .mobile_menu .mobile_menu_wrapper .menu_dropdown .menu_dropdown_items_wrapper .menu_dropdown_items li a {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  header .mobile_menu .mobile_menu_wrapper .last_link {
+    gap: 10px;
   }
   @keyframes headerActive {
     0% {
@@ -1475,6 +1499,7 @@ footer .item_4 {
   #home {
     padding-top: 130px;
     padding-bottom: 50px;
+    background-position: left center;
   }
   #home .main_container {
     max-width: 100%;
@@ -1484,17 +1509,10 @@ footer .item_4 {
   #home .title {
     font-size: 20px;
     margin-bottom: 31px;
-    max-width: 100%;
-    text-align: center;
   }
   #home .description {
     font-size: 14px;
     margin-bottom: 30px;
-    max-width: 100%;
-    text-align: center;
-  }
-  #home .btn_link {
-    margin: 0 auto;
   }
   #advantages .advantages_top {
     max-width: 100%;
@@ -1833,6 +1851,13 @@ footer .item_4 {
   }
   footer .item .link {
     width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  footer .item .link img {
+    width: 16px;
+    height: auto;
   }
   footer .item_1 {
     width: 100%;
@@ -1915,6 +1940,43 @@ footer .item_4 {
   #classic_main .classic_main_wrapper .podbar_card_top .podbar_card .btn_link {
     width: 100%;
   }
+  #classic_main .classic_main_wrapper .classic_in {
+    flex-direction: column;
+  }
+  #classic_main .classic_main_wrapper .classic_in .classic_block {
+    width: 100%;
+  }
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_left,
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_right {
+    max-width: 100% !important;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_left svg,
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_right svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_left img,
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_right img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_left h3,
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_right h3 {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_left p,
+  #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_right p {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+  }
   #example {
     margin-bottom: 50px;
   }
@@ -1950,5 +2012,23 @@ footer .item_4 {
   }
   #example .card_item .card_descriptions .text {
     font-size: 12px;
+  }
+  #home {
+    background: url("../images/index_mobile.png"), no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 210px;
+    padding-bottom: 710px;
+  }
+  #home .title {
+    max-width: 490px;
+  }
+  #home .description {
+    max-width: 520px;
+  }
+  #home .btn_link {
+    max-width: 380px;
+    margin-right: auto;
+    margin-left: 0;
   }
 }/*# sourceMappingURL=style.css.map */
