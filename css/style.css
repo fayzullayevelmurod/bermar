@@ -1128,18 +1128,8 @@ footer .item_4 {
   margin-bottom: 165px;
   gap: 20px;
 }
-#classic_main .classic_main_wrapper .bottom_slider .bottomSwiper {
-  display: flex;
-}
-#classic_main .classic_main_wrapper .bottom_slider .bottomSwiper .swiper-wrapper .swiper-slide {
-  margin-right: 0px;
-}
 #classic_main .classic_main_wrapper .bottom_slider .bottomSwiper .swiper-wrapper .swiper-slide img {
-  width: 380px;
-}
-#classic_main .classic_main_wrapper .bottom_slider .bottomSwiper .swiper-wrapper .swiper-slide-active {
-  width: 415px !important;
-  margin-right: 0px !important;
+  width: 100%;
 }
 #classic_main .classic_main_wrapper .bottom_slider .bottomSwiper .btn_left {
   position: relative;
@@ -1978,6 +1968,9 @@ footer .item_4 {
     height: auto;
     text-align: center;
   }
+  #classic_main .classic_main_wrapper h2 br {
+    display: none;
+  }
   #example {
     margin-bottom: 50px;
   }
@@ -2009,7 +2002,9 @@ footer .item_4 {
   #example .card_item .card_descriptions {
     gap: 20px;
     margin-bottom: 15px;
-    justify-content: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #example .card_item .card_descriptions .text {
     font-size: 12px;

@@ -412,20 +412,14 @@
             gap: 20px;
 
             .bottomSwiper {
-                display: flex;
+                // display: flex;
 
                 .swiper-wrapper {
                     .swiper-slide {
-                        margin-right: 0px;
 
                         img {
-                            width: 380px;
+                            width: 100%;
                         }
-                    }
-
-                    .swiper-slide-active {
-                        width: 415px !important;
-                        margin-right: 0px !important;
                     }
                 }
 

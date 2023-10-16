@@ -1116,6 +1116,12 @@
                     }
                 }
             }
+
+            h2 {
+                br {
+                    display: none;
+                }
+            }
         }
     }
 
@@ -1156,7 +1162,9 @@
             .card_descriptions {
                 gap: 20px;
                 margin-bottom: 15px;
-                justify-content: center;
+                max-width: 300px;
+                margin-left: auto;
+                margin-right: auto;
     
                 .text {
                     font-size: 12px;

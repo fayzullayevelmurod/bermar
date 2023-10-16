@@ -493,29 +493,18 @@
         });
         var swiper = new Swiper(".bottomSwiper", {
             loop: true,
-            slidesPerView: 2,
-            spaceBetween: 20,
-        navigation: {
-            nextEl: ".btn_right",
-            prevEl: ".btn_left",
-        },
-        breakpoints: {
-            // when window width is >= 320px
-            320: {
             slidesPerView: 1,
-            spaceBetween: 20
+            spaceBetween: 0,
+            navigation: {
+                nextEl: ".btn_right",
+                prevEl: ".btn_left",
             },
-            // when window width is >= 480px
-            576: {
-            slidesPerView: 1,
-            spaceBetween: 30
-            },
-            // when window width is >= 640px
-            640: {
-            slidesPerView: 2,
-            spaceBetween: 20
+            breakpoints: {
+                576: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
             }
-        }
         });
     </script>
 </body>
