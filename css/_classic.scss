@@ -23,25 +23,45 @@
 
         .media_slider {
             display: none !important;
-
-            .classicSlider {
+            .slider_in{
+                margin: 0 auto;
                 max-width: 350px;
-
-                img {
-                    width: 100%;
+                display: flex;
+                align-items: center;
+                position: relative;
+                .btn_left{
+                    cursor: pointer;
+                    position: absolute;
+                    left: 0;
+                    top: 45%;
+                    z-index: 3;
                 }
-
-                .swiper-pagination-bullet {
-                    background-color: #C1F2F2FF;
+                .btn_right{
+                    cursor: pointer;
+                    z-index: 3;
+                    position: absolute;
+                    right: 0;
+                    top: 45%;
                 }
+                .classicSlider {
+                    width: 350px;
 
-                .swiper-pagination-bullet-active {
-                    background-color: #64DEDFFF;
+                    img {
+                        width: 100%;
+                    }
+
+                    .swiper-pagination-bullet {
+                        background-color: #C1F2F2FF;
+                    }
+
+                    .swiper-pagination-bullet-active {
+                        background-color: #64DEDFFF;
+                    }
                 }
             }
 
             h3 {
-                max-width: 280px;
+                max-width: 380px;
                 margin: 26px auto 32px auto;
                 color: #000;
                 text-align: center;
@@ -159,7 +179,7 @@
                     }
 
                     h3 {
-                        max-width: 280px;
+                        max-width: 380px;
                         margin: 26px auto 32px auto;
                         color: #000;
                         text-align: center;
@@ -511,6 +531,9 @@
 
             .stopper_card {
                 text-align: center;
+                img{
+                    width: 100%;
+                }
 
                 h3 {
                     max-width: 280px;

@@ -818,20 +818,41 @@ footer .item_4 {
 #classic_main .classic_main_wrapper .media_slider {
   display: none !important;
 }
-#classic_main .classic_main_wrapper .media_slider .classicSlider {
+#classic_main .classic_main_wrapper .media_slider .slider_in {
+  margin: 0 auto;
   max-width: 350px;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
-#classic_main .classic_main_wrapper .media_slider .classicSlider img {
+#classic_main .classic_main_wrapper .media_slider .slider_in .btn_left {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 45%;
+  z-index: 3;
+}
+#classic_main .classic_main_wrapper .media_slider .slider_in .btn_right {
+  cursor: pointer;
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  top: 45%;
+}
+#classic_main .classic_main_wrapper .media_slider .slider_in .classicSlider {
+  width: 350px;
+}
+#classic_main .classic_main_wrapper .media_slider .slider_in .classicSlider img {
   width: 100%;
 }
-#classic_main .classic_main_wrapper .media_slider .classicSlider .swiper-pagination-bullet {
+#classic_main .classic_main_wrapper .media_slider .slider_in .classicSlider .swiper-pagination-bullet {
   background-color: #c1f2f2;
 }
-#classic_main .classic_main_wrapper .media_slider .classicSlider .swiper-pagination-bullet-active {
+#classic_main .classic_main_wrapper .media_slider .slider_in .classicSlider .swiper-pagination-bullet-active {
   background-color: #64dedf;
 }
 #classic_main .classic_main_wrapper .media_slider h3 {
-  max-width: 280px;
+  max-width: 380px;
   margin: 26px auto 32px auto;
   color: #000;
   text-align: center;
@@ -934,7 +955,7 @@ footer .item_4 {
   background-color: #64dedf;
 }
 #classic_main .classic_main_wrapper .classic_in .classic_block .classic_card_slider h3 {
-  max-width: 280px;
+  max-width: 380px;
   margin: 26px auto 32px auto;
   color: #000;
   text-align: center;
@@ -1226,6 +1247,9 @@ footer .item_4 {
 }
 #classic_main .classic_main_wrapper .stopper_in .stopper_card {
   text-align: center;
+}
+#classic_main .classic_main_wrapper .stopper_in .stopper_card img {
+  width: 100%;
 }
 #classic_main .classic_main_wrapper .stopper_in .stopper_card h3 {
   max-width: 280px;
