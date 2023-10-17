@@ -22,11 +22,19 @@
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
-  transition: 0.2s linear;
+  transition: 0.3s linear;
   line-height: normal;
+  background-position: center;
+  transition: background 0.8s;
 }
 .btn_link:hover {
   color: #000;
+  background: #CE7C00 radial-gradient(circle, transparent 1%, #CE7C00 1%) center/15000%;
+}
+.btn_link:active {
+  background-color: #ff9604;
+  background-size: 100%;
+  transition: background 0s;
 }
 
 .btn_link_two {
@@ -188,7 +196,6 @@ header .bars svg {
 }
 #home .btn_link:hover {
   color: #000;
-  background: #CE7C00;
 }
 
 #advantages .advantages_top {
@@ -1936,7 +1943,7 @@ footer .item_4 {
 }
 @media (max-width: 768px) {
   #home {
-    background: url("../images/index_mobile.png"), no-repeat;
+    background: url("../images/cover_mobile.jpg"), no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 210px;
@@ -2013,10 +2020,35 @@ footer .item_4 {
   }
 }
 @media (max-width: 576px) {
+  .btn_link {
+    width: 200px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: 700;
+    transition: 0.2s linear;
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .btn_link:hover {
+    color: #000;
+    background: #64DEDF radial-gradient(circle, transparent 1%, #64DEDF 1%) center/15000%;
+    transition: 0.5s linear;
+  }
+  .btn_link:active {
+    background-color: #00ffff;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  #home .title {
+    font-size: 28px;
+  }
+  #home .description {
+    font-size: 18px;
+  }
   #home .btn_link {
-    width: 291px;
-    height: 72px;
-    font-size: 30px;
+    width: 200px;
+    height: 55px;
+    font-size: 25px;
   }
   .btn_link,
   .btn_link_two {

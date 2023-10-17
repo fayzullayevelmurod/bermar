@@ -969,7 +969,7 @@
 
 @media (max-width: 768px) {
     #home{
-        background: url('../images/index_mobile.png'), no-repeat;
+        background: url('../images/cover_mobile.jpg'), no-repeat;
         background-position: center;
         background-size: cover;
         padding-top: 210px;
@@ -1083,11 +1083,37 @@
 }
 
 @media (max-width: 576px) {
+    .btn_link {
+        width: 200px;
+        height: 55px;
+        font-size: 25px;
+        font-weight: 700;
+        transition: .2s linear;
+        background-position: center;
+        transition: background 0.8s;
+        // background: #CE7C00;
+        &:hover {
+            color: #000;
+            background: #64DEDF radial-gradient(circle, transparent 1%, #64DEDF 1%) center/15000%;
+            transition: .5s linear;
+        }
+        &:active{
+            background-color: #00ffff;
+            background-size: 100%;
+            transition: background 0s;
+        } 
+    }
     #home{
+        .title{
+            font-size: 28px;
+        }
+        .description{
+            font-size: 18px;
+        }
         .btn_link{
-            width: 291px;
-            height: 72px;
-            font-size: 30px;
+            width: 200px;
+            height: 55px;
+            font-size: 25px;
         }
     }
     .btn_link,

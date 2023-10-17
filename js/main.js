@@ -56,3 +56,7 @@ $('.mobile_menu .header_close').click(function () {
     $('.mobile_menu').removeClass('active')
     $('.mobile_menu').addClass('noActive')
 })
+
+$('.btn_link').click(function(e){
+    e.preventDefault()
+})

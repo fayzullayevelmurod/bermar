@@ -23,12 +23,20 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    transition: .2s linear;
+    transition: .3s linear;
     line-height: normal;
-
+    background-position: center;
+    transition: background 0.8s;
+    // background: #CE7C00;
     &:hover {
         color: #000;
+        background: #CE7C00 radial-gradient(circle, transparent 1%, #CE7C00 1%) center/15000%;
     }
+    &:active{
+        background-color: #ff9604;
+        background-size: 100%;
+        transition: background 0s;
+    } 
 }
 
 .btn_link_two {
@@ -243,7 +251,7 @@ header {
     .btn_link{
         &:hover {
             color: #000;
-            background: #CE7C00;
+            // background: #CE7C00;
         }
     }
 
