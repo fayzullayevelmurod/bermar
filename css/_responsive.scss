@@ -460,8 +460,10 @@
             }
 
             .bottom_slider {
-                .btn_left, .btn_right {
-                    display: none;
+                .btn_lefts, .btn_rights {
+                    svg{
+                        width: 95px;
+                    }
                 }
             }
         }
@@ -479,6 +481,7 @@
         }
     
         .title {
+            max-width: 490px;
             font-size: 20px;
             margin-bottom: 31px;
         }
@@ -965,6 +968,28 @@
 }
 
 @media (max-width: 768px) {
+    #home{
+        background: url('../images/index_mobile.png'), no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-top: 210px;
+        padding-bottom: 710px;
+        .title{
+            max-width: 490px;
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+        .description{
+            max-width: 490px;
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+        .btn_link{
+            width: 291px;
+            height: 72px;
+            font-size: 30px;
+        }
+    }
     #classic_main {
         .classic_main_wrapper {
             .podbar_system {
@@ -987,6 +1012,13 @@
                         h4 {
                             margin-left: 0px;
                         }
+                    }
+                }
+            }
+            .bottom_slider {
+                .btn_lefts, .btn_rights {
+                    svg{
+                        width: 80px;
                     }
                 }
             }
@@ -1051,7 +1083,13 @@
 }
 
 @media (max-width: 576px) {
-
+    #home{
+        .btn_link{
+            width: 291px;
+            height: 72px;
+            font-size: 30px;
+        }
+    }
     .btn_link,
     .btn_link_two {
         width: 100%;
@@ -1072,10 +1110,6 @@
                     }
                 }
             }
-
-            .mobile_img  {
-            }
-            
             .classic_in {
                 margin-top: 50px;
                 flex-direction: column;
@@ -1170,28 +1204,6 @@
                     font-size: 12px;
                 }
             }
-        }
-    }
-
-    #home {
-        background: url('../images/index_mobile.png'), no-repeat;
-        background-position: center;
-        background-size: cover;
-        padding-top: 210px;
-        padding-bottom: 710px;
-
-        .title {
-            max-width: 490px;
-        }
-
-        .description {
-            max-width: 520px;
-        }
-
-        .btn_link {
-            max-width: 380px;
-            margin-right: auto;
-            margin-left: 0;
         }
     }
 }

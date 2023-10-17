@@ -121,20 +121,40 @@
 
                 .classic_card_slider {
                     transform: translateY(80px);
-
-                    .classicSlider {
-                        width: 350px;
-
-                        img {
-                            width: 100%;
+                    .slider_in{
+                        margin: 0 auto;
+                        max-width: 350px;
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+                        .btn_left{
+                            cursor: pointer;
+                            position: absolute;
+                            left: 0;
+                            top: 45%;
+                            z-index: 3;
                         }
-
-                        .swiper-pagination-bullet {
-                            background-color: #C1F2F2FF;
+                        .btn_right{
+                            cursor: pointer;
+                            z-index: 3;
+                            position: absolute;
+                            right: 0;
+                            top: 45%;
                         }
-
-                        .swiper-pagination-bullet-active {
-                            background-color: #64DEDFFF;
+                        .classicSlider {
+                            width: 350px;
+    
+                            img {
+                                width: 100%;
+                            }
+    
+                            .swiper-pagination-bullet {
+                                background-color: #C1F2F2FF;
+                            }
+    
+                            .swiper-pagination-bullet-active {
+                                background-color: #64DEDFFF;
+                            }
                         }
                     }
 
@@ -214,7 +234,53 @@
             justify-content: center;
 
             .classic_card_slider {
-                .classicSlider {
+                .slider_in{
+                    margin: 0 auto;
+                    max-width: 380px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    .btn_left{
+                        cursor: pointer;
+                        position: absolute;
+                        left: 0;
+                        top: 45%;
+                        z-index: 3;
+                    }
+                    .btn_right{
+                        cursor: pointer;
+                        z-index: 3;
+                        position: absolute;
+                        right: 0;
+                        top: 45%;
+                    }
+                    .btn_prev{
+                        cursor: pointer;
+                        position: absolute;
+                        left: 0;
+                        top: 45%;
+                        z-index: 3;
+                    }
+                    .btn_next{
+                        cursor: pointer;
+                        z-index: 3;
+                        position: absolute;
+                        right: 0;
+                        top: 45%;
+                    }
+                }
+                .classicSliderOne {
+                    width: 380px;
+
+                    .swiper-pagination-bullet {
+                        background-color: #C1F2F2FF;
+                    }
+
+                    .swiper-pagination-bullet-active {
+                        background-color: #64DEDFFF;
+                    }
+                }
+                .classicSliderTwo {
                     width: 380px;
 
                     .swiper-pagination-bullet {
@@ -423,13 +489,15 @@
                     }
                 }
 
-                .btn_left {
+                .btn_lefts {
                     position: relative;
                     z-index: 3;
                     left: 0;
+                    cursor: pointer;
                 }
 
-                .btn_right {
+                .btn_rights {
+                    cursor: pointer;
                     position: relative;
                     z-index: 10;
                     right: 0;

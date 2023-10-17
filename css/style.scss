@@ -23,6 +23,7 @@
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
+    transition: .2s linear;
     line-height: normal;
 
     &:hover {
@@ -207,13 +208,17 @@ header {
     }
 }
 
+// .home_wrapper{
+//     background-image: url('../images/home_mobile.png');
+//     background-position: right center;
+//     background-size: cover;
+// }
 #home {
     background: url('../images/home_bg.jpg') no-repeat;
     background-position: right center;
     background-size: cover;
     padding-top: 238px;
     padding-bottom: 162px;
-
     .title {
         color: #FFF;
         font-family: "Inter", sans-serif;
@@ -234,6 +239,12 @@ header {
         line-height: normal;
         margin-bottom: 55px;
         max-width: 521px;
+    }
+    .btn_link{
+        &:hover {
+            color: #000;
+            background: #CE7C00;
+        }
     }
 
 }
